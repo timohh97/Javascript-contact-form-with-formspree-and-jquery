@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="send-email.js"></script>
+    <title>Email sender</title>
+</head>
+
+<body>
+    <form method="POST" action="https://formspree.io/timo.schessl@gmail.com">
+    <label>
+        Email:
+        <input type="email" name="email" class="email">
+    </label>
+
+    <label>
+        Subject:
+        <input type="text" name="subject" class="subject">
+    </label>
+
+    <label>
+        Message:
+        <textarea class="message" name="message"></textarea>
+    </label>
+
+    <button type="submit" class="submit">Send email</button>
+    </form>
+</body>
+
+</html>
