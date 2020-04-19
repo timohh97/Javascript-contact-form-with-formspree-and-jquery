@@ -1,1 +1,1 @@
-gsap.from("form",{opacity: 0, duration: 1, y: 20})
+gsap.from("form",{opacity: 0, duration: 2, y: 20})

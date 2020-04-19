@@ -28,10 +28,10 @@ label, button{
 }
 
 form{
-    margin-top: 150px;
+    margin-top: 100px;
     background-color: chartreuse;
     width: 400px;
-    height: 500px;
+    height: 550px;
     margin-right: auto;
     margin-left: auto;
     border-radius: 15px;
