@@ -11,23 +11,34 @@
 
 <body>
     <form method="POST" action="https://formspree.io/timo.schessl@gmail.com">
+        <label id="title">
+            Contact me
+        </label>
     <label>
-        Email:
-        <input type="email" name="email" class="email">
+        Your Email:
+        <input type="email" name="email" class="email" placeholder="Your email...">
     </label>
 
     <label>
         Subject:
-        <input type="text" name="subject" class="subject">
+        <input type="text" name="subject" class="subject" placeholder="Subject...">
     </label>
 
     <label>
         Message:
-        <textarea class="message" name="message"></textarea>
+        <textarea class="message" name="message" placeholder="Your message..."></textarea>
     </label>
+    <div id="status">
+    
+    </div>
 
-    <button type="submit" class="submit">Send email</button>
+
+    <button type="submit" class="submit">Send message</button>
     </form>
+   
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+
+    <script src="animate.js"></script>
 </body>
 
 </html>
