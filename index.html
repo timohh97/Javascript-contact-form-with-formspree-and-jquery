@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="sendConfirmation.js"></script>
     <script src="send-email.js"></script>
     <title>Contact form</title>
 </head>
@@ -14,29 +15,37 @@
         <label id="title">
             Contact me
         </label>
-    <label>
-        Your Email:
-        <input type="email" name="email" class="email" placeholder="Your email...">
-    </label>
 
-    <label>
-        Subject:
-        <input type="text" name="subject" class="subject" placeholder="Subject...">
-    </label>
-
-    <label>
-        Message:
-        <textarea class="message" name="message" placeholder="Your message..."></textarea>
-    </label>
-    <div id="status">
-    
-    </div>
+        <label>
+            Your Email:
+            <input type="email" name="email" class="email" placeholder="Your email...">
+        </label>
 
 
-    <button type="submit" class="submit">Send message</button>
-    <button type="reset" id="delete">Delete</button>
+        <label>
+            Subject:
+            <input type="text" name="subject" class="subject" placeholder="Subject...">
+        </label>
+
+        <label>
+            Message:
+            <textarea class="message" name="message" placeholder="Your message..."></textarea>
+        </label>
+        <div id="status">
+
+        </div>
+        <input id="confirm" type="hidden" name="_cc" value="" />
+        
+
+        <button type="submit" class="submit">Send message</button>
+        <button type="reset" id="delete">Delete</button>
     </form>
+
    
+
+
+
+
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
 
     <script src="animate.js"></script>
